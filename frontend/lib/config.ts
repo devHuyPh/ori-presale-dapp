@@ -1,0 +1,7 @@
+export const CHAIN_ID = 11155111; // Sepolia
+export const CONTRACTS = {
+  token: "0x9E27f114ef2721Ad5b0c5E496F2B38Cf5944429B",
+  presale: "0x6e25291E759DA3e731cd0863e517FE40BF4Eb490",
+  affiliate: "0xa695500B1118839508A5c83fb1FD926987124eF0"
+};
+

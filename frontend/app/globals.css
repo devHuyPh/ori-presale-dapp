@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #0b0f14; --card: #121821; --text: #e7edf3; }
+body { background: var(--bg); color: var(--text); }
+.container { max-width: 64rem; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
+.btn { border-radius: 1rem; padding: 0.5rem 1rem; font-weight: 600; box-shadow: 0 2px 8px rgba(0,0,0,.2); background:#1f2937; }
+.card { border-radius: 1rem; padding: 1.25rem; box-shadow: 0 2px 8px rgba(0,0,0,.2); border: 1px solid rgba(255,255,255,.05); background: var(--card); }
+.input { width: 100%; background: rgba(0,0,0,.3); border: 1px solid rgba(255,255,255,.1); border-radius: 0.75rem; padding: 0.5rem 1rem; outline: none; }
+.label { font-size: .875rem; opacity: .8; }

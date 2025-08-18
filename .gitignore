@@ -1,0 +1,29 @@
+# common
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env / secrets
+.env
+.env.*.local
+
+# root node
+node_modules/
+coverage/
+
+# Hardhat
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+
+# misc
+dist/
