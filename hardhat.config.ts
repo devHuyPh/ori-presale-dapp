@@ -9,7 +9,9 @@ const config: HardhatUserConfig = {
   networks: {
     sepolia: {
       url: process.env.SEPOLIA_RPC || "",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      httpHeaders: {},
+      timeout: 180000, 
     }
     
     
